@@ -32,7 +32,7 @@ export default function App() {
 
           <hr />
           <button className="colorChangeBtn" onClick={changeColor}>
-            {/* <AiOutlineSync size={50}/> */}
+            {/* <AiOutlineSync size={50}/> */}Change Color
           </button>
         </div>
       </div>
