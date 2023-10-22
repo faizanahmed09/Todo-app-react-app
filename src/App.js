@@ -1,6 +1,5 @@
 import axios from "axios";
 import { useState } from "react";
-import { AiOutlineSync } from "react-icons/ai";
 import "./styles.css";
 
 export default function App() {
@@ -33,7 +32,7 @@ export default function App() {
 
           <hr />
           <button className="colorChangeBtn" onClick={changeColor}>
-            <AiOutlineSync size={50}/>
+            {/* <AiOutlineSync size={50}/> */}
           </button>
         </div>
       </div>
